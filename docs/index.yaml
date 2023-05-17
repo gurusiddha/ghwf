@@ -3,7 +3,7 @@ entries:
   artifact-hub-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T11:10:21.191759+05:30"
+    created: "2023-05-17T11:35:04.93917+05:30"
     description: A Helm chart for Kubernetes
     digest: ad31ce90deee82e259dd65e1e1d2255ce06fa5e90b885dc15a566233ac8d60a7
     name: artifact-hub-test
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://gurusiddha.github.com/artifact-hub-test/artifact-hub-test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-17T11:10:21.190154+05:30"
+generated: "2023-05-17T11:35:04.9373+05:30"
