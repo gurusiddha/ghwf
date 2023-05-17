@@ -3,23 +3,23 @@ entries:
   artifact-hub-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T12:42:40.578176+05:30"
+    created: "2023-05-17T14:33:59.820525+05:30"
     description: A Helm chart for Kubernetes
     digest: ad31ce90deee82e259dd65e1e1d2255ce06fa5e90b885dc15a566233ac8d60a7
     name: artifact-hub-test
     type: application
     urls:
-    - https://gurusiddha.github.com/ghwf/artifact-hub-test-0.1.0.tgz
+    - artifact-hub-test-0.1.0.tgz
     version: 0.1.0
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T12:42:40.578871+05:30"
+    created: "2023-05-17T14:33:59.821176+05:30"
     description: A Helm chart for Kubernetes
     digest: 17066a835f095d9bb011efc80c86f2d2dd2fd56e27881702ec3012ccc3911101
     name: mychart
     type: application
     urls:
-    - https://gurusiddha.github.com/ghwf/mychart-0.1.0.tgz
+    - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-17T12:42:40.577317+05:30"
+generated: "2023-05-17T14:33:59.819725+05:30"
