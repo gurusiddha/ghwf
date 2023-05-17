@@ -1,0 +1,5 @@
+# Artifact Hub repository metadata file
+repositoryID: 2ddaeaa5-07e9-458b-a946-7148de4f179b
+owners: # (optional, used to claim repository ownership)
+  - name: gurusiddha
+    email: gurusiddhakore@gmail.com
