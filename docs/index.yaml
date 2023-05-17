@@ -8,11 +8,26 @@ entries:
           name: crontabs.stable.example.com
           displayName: My Crontab
           description: Some nice description
+      artifacthub.io/crdsExamples: |
+        - apiVersion: "stable.example.com/v1"
+          kind: CronTab
+          metadata:
+           name: my-new-cron-object
+          spec:
+            cronSpec: "* * * * */5"
+            image: my-awesome-cron-image
+        - apiVersion: "stable.example.com/v1"
+          kind: CronTab
+          metadata:
+           name: my-second-cron-object
+          spec:
+            cronSpec: "* * * * */11"
+            image: my-awesome-cron-image
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.919141+05:30"
+    created: "2023-05-17T19:37:56.470494+05:30"
     description: A Helm chart for Kubernetes
-    digest: 59e7b441ed71fca0a6161b53c75f76aadbfd66bb824c5298d3267a4bf8252eef
+    digest: bb4300ff6d1dcdd3b32651a652c2b47e9fe34870c6a5dc1c4f0d07689175275a
     name: artifact-hub-test
     type: application
     urls:
@@ -27,7 +42,7 @@ entries:
           description: Some nice description
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.918427+05:30"
+    created: "2023-05-17T19:37:56.469841+05:30"
     description: A Helm chart for Kubernetes
     digest: 25d4b40c3e5e8db2307c0f2a24ef5d0b4b49f63a888015f27905c0021af6648b
     name: artifact-hub-test
@@ -44,7 +59,7 @@ entries:
           description: Some nice description
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.917174+05:30"
+    created: "2023-05-17T19:37:56.468717+05:30"
     description: A Helm chart for Kubernetes
     digest: 7b924e0d942654f258b43f095a97404a15969e592b79b61851390ad60b00d0fb
     name: artifact-hub-test
@@ -54,7 +69,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.915932+05:30"
+    created: "2023-05-17T19:37:56.467431+05:30"
     description: A Helm chart for Kubernetes
     digest: f79eebaeafc25138706882ba627b4cb919768f867172b2aa832d31c9edffc6e5
     name: artifact-hub-test
@@ -64,7 +79,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.91448+05:30"
+    created: "2023-05-17T19:37:56.466136+05:30"
     description: A Helm chart for Kubernetes
     digest: ad31ce90deee82e259dd65e1e1d2255ce06fa5e90b885dc15a566233ac8d60a7
     name: artifact-hub-test
@@ -75,7 +90,7 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.923227+05:30"
+    created: "2023-05-17T19:37:56.473905+05:30"
     description: A Helm chart for Kubernetes
     digest: 2fd67662b53a877658e055ed713e00ab3282a680225527cc3ab445397a57dcef
     name: mychart
@@ -85,7 +100,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.92249+05:30"
+    created: "2023-05-17T19:37:56.472984+05:30"
     description: A Helm chart for Kubernetes
     digest: 22496d27792d4711ec6a2b5a60f1819aa9e0fcbc4a73303d2628d44c3e980912
     name: mychart
@@ -95,7 +110,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.921351+05:30"
+    created: "2023-05-17T19:37:56.472242+05:30"
     description: A Helm chart for Kubernetes
     digest: 25f8fb3f43381d58840cc651436b2fecd835d21326cdcb58434a5bfce0b5bd7a
     name: mychart
@@ -105,7 +120,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T19:31:44.920336+05:30"
+    created: "2023-05-17T19:37:56.47137+05:30"
     description: A Helm chart for Kubernetes
     digest: 17066a835f095d9bb011efc80c86f2d2dd2fd56e27881702ec3012ccc3911101
     name: mychart
@@ -113,4 +128,4 @@ entries:
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-17T19:31:44.913243+05:30"
+generated: "2023-05-17T19:37:56.464961+05:30"
