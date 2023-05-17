@@ -3,7 +3,17 @@ entries:
   artifact-hub-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T14:33:59.820525+05:30"
+    created: "2023-05-17T14:43:09.258747+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 0e40c28796cdece2c7e123c882c685fc950d73e9a22b2e2e3c7b85158815ac1d
+    name: artifact-hub-test
+    type: application
+    urls:
+    - artifact-hub-test-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-17T14:43:09.258116+05:30"
     description: A Helm chart for Kubernetes
     digest: ad31ce90deee82e259dd65e1e1d2255ce06fa5e90b885dc15a566233ac8d60a7
     name: artifact-hub-test
@@ -14,7 +24,17 @@ entries:
   mychart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-17T14:33:59.821176+05:30"
+    created: "2023-05-17T14:43:09.2601+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 25f8fb3f43381d58840cc651436b2fecd835d21326cdcb58434a5bfce0b5bd7a
+    name: mychart
+    type: application
+    urls:
+    - mychart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-17T14:43:09.259356+05:30"
     description: A Helm chart for Kubernetes
     digest: 17066a835f095d9bb011efc80c86f2d2dd2fd56e27881702ec3012ccc3911101
     name: mychart
@@ -22,4 +42,4 @@ entries:
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-17T14:33:59.819725+05:30"
+generated: "2023-05-17T14:43:09.256253+05:30"
