@@ -15,7 +15,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.6
+version: 0.1.7
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
@@ -31,14 +31,14 @@ annotations:
       displayName: My Crontab
       description: Some nice description
   artifacthub.io/crdsExamples: |
-    - apiVersion: "stable.example.com/v1"
+    - apiVersion: v1
       kind: crontabs
       metadata:
        name: my-new-cron-object
       spec:
         cronSpec: "* * * * */5"
         image: my-awesome-cron-image
-    - apiVersion: "stable.example.com/v1"
+    - apiVersion: v1
       kind: crontabs
       metadata:
        name: my-second-cron-object
