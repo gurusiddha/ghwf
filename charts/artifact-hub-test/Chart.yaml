@@ -36,8 +36,8 @@ annotations:
       metadata:
        name: my-second-cron-object
       spec:
-        cronSpec: "* * * * */11" \#comment
-        image: my-awesome-cron-image /#hello there
+        cronSpec: "* * * * */11" #comment
+        image: my-awesome-cron-image #hello there
 #    - apiVersion: v1
 #      kind: crontabs
 #      metadata:
