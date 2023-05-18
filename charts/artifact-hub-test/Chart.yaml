@@ -15,7 +15,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.19
+version: 0.1.20
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
@@ -36,8 +36,8 @@ annotations:
       metadata:
        name: my-second-cron-object
       spec:
-        cronSpec: "* * * * */11" #comment
-        image: my-awesome-cron-image #hello there
+        cronSpec: "* * * * */11" #"comment"
+        image: my-awesome-cron-image #"hello there"
 #    - apiVersion: v1
 #      kind: crontabs
 #      metadata:
