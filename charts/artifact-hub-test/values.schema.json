@@ -52,7 +52,7 @@
     },
     "argus": {
       "$id": "#/properties/argus",
-      "title": "Argus Helm Chart Configurations, for detailed schema visit https://artifacthub.io/packages/helm/logicmonitor-helm-charts/argus?modal=values-schema",
+      "title": "Argus Helm Chart Configurations, for detailed schema visit \n https://artifacthub.io/packages/helm/logicmonitor-helm-charts/argus?modal=values-schema",
       "description": "Argus Helm Chart Configurations.",
       "type": "object",
       "properties": {
