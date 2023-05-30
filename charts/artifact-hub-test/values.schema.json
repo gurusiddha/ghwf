@@ -56,7 +56,7 @@
       "description": "Argus Helm Chart Configurations.",
       "type": "object",
       "properties": {
-        "$comment": "argus schema link-- ",
+        "__comment2__": "argus schema link-- ",
         "enabled": {
           "type": "boolean",
           "description": "Enable Argus chart installation",
